@@ -1,1 +1,9 @@
+{
+  "functions": {
+    "api/process_video.py": {
+      "maxDuration": 60,
+      "memory": 1024
+    }
+  }
+}
 
