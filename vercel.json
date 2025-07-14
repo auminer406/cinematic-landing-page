@@ -1,4 +1,10 @@
 {
+  "builds": [
+    {
+      "src": "api/process_video.py",
+      "use": "@vercel/python"
+    }
+  ],
   "functions": {
     "api/process_video.py": {
       "maxDuration": 60,
@@ -6,4 +12,3 @@
     }
   }
 }
-
